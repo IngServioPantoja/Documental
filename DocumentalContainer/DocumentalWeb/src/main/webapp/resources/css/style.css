@@ -1,0 +1,289 @@
+body {
+	font-size: 16px;
+}
+
+header {
+	overflow: auto;
+	color: #ddd;
+	padding: 10px;
+	font-size: 2em;
+	text-align: center;
+	background: -moz-linear-gradient(45deg, #242b35 0%, #242b35 3%, #2c333d 4%, #242b35
+		6%, #242b35 10%, #2d343e 12%, #242b35 13%, #242b35 18%, #2c333d 19%,
+		#242b35 21%, #242b35 25%, #2d343e 26%, #242b35 28%, #232a34 29%,
+		#242b35 32%, #2c333d 34%, #252c36 35%, #242b35 40%, #2d343e 41%,
+		#252c36 43%, #242b35 44%, #242b35 47%, #2d343e 49%, #242b35 50%,
+		#242b35 54%, #2b323c 56%, #242b35 57%, #242b35 62%, #2c333d 63%,
+		#242b35 65%, #242b35 69%, #2c333d 71%, #242b35 72%, #242b35 76%,
+		#2d343e 78%, #232a34 79%, #242b35 84%, #2c333d 85%, #242b35 87%,
+		#242b35 91%, #2b323c 93%, #242b35 94%, #242b35 99%, #2b323c 100%);
+	background: -webkit-linear-gradient(45deg, #242b35 0%, #242b35 3%, #2c333d 4%,
+		#242b35 6%, #242b35 10%, #2d343e 12%, #242b35 13%, #242b35 18%,
+		#2c333d 19%, #242b35 21%, #242b35 25%, #2d343e 26%, #242b35 28%,
+		#232a34 29%, #242b35 32%, #2c333d 34%, #252c36 35%, #242b35 40%,
+		#2d343e 41%, #252c36 43%, #242b35 44%, #242b35 47%, #2d343e 49%,
+		#242b35 50%, #242b35 54%, #2b323c 56%, #242b35 57%, #242b35 62%,
+		#2c333d 63%, #242b35 65%, #242b35 69%, #2c333d 71%, #242b35 72%,
+		#242b35 76%, #2d343e 78%, #232a34 79%, #242b35 84%, #2c333d 85%,
+		#242b35 87%, #242b35 91%, #2b323c 93%, #242b35 94%, #242b35 99%,
+		#2b323c 100%);
+	background: linear-gradient(45deg, #242b35 0%, #242b35 3%, #2c333d 4%, #242b35 6%,
+		#242b35 10%, #2d343e 12%, #242b35 13%, #242b35 18%, #2c333d 19%,
+		#242b35 21%, #242b35 25%, #2d343e 26%, #242b35 28%, #232a34 29%,
+		#242b35 32%, #2c333d 34%, #252c36 35%, #242b35 40%, #2d343e 41%,
+		#252c36 43%, #242b35 44%, #242b35 47%, #2d343e 49%, #242b35 50%,
+		#242b35 54%, #2b323c 56%, #242b35 57%, #242b35 62%, #2c333d 63%,
+		#242b35 65%, #242b35 69%, #2c333d 71%, #242b35 72%, #242b35 76%,
+		#2d343e 78%, #232a34 79%, #242b35 84%, #2c333d 85%, #242b35 87%,
+		#242b35 91%, #2b323c 93%, #242b35 94%, #242b35 99%, #2b323c 100%);
+	background-size: 50px 40px;
+}
+
+header .opcionesCabecera {
+	float: right;
+	font-size: 0.5em;
+}
+
+header .opcionesCabecera ul {
+	list-style: none;
+	margin: 0px;
+}
+
+header .opcionesCabecera ul li {
+	display: inline-block;
+}
+
+header .opcionesCabecera a {
+	color: #bbb;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+header .opcionesCabecera span {
+	margin-left: 5px;
+}
+
+nav.menuPrimario {
+	background: -moz-linear-gradient(45deg, #494f57 0%, #4f555e 2%, #4a5058 4%, #494f57
+		9%, #4f555e 11%, #4a5058 13%, #494f57 18%, #4f555e 20%, #4a5058 22%,
+		#494f57 27%, #4f555e 29%, #4a5058 31%, #494f57 36%, #4f555e 38%,
+		#4a5058 40%, #494f57 45%, #4f555e 47%, #4a5058 49%, #494f57 55%,
+		#4f555e 56%, #4a5058 58%, #494f57 64%, #4f555e 65%, #4a5058 67%,
+		#494f57 73%, #4f555e 75%, #4a5058 76%, #494f57 82%, #4f555e 84%,
+		#4a5058 85%, #494f57 91%, #4f555e 93%, #4a5058 95%, #494f57 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #494f57 0%, #4f555e 2%, #4a5058 4%,
+		#494f57 9%, #4f555e 11%, #4a5058 13%, #494f57 18%, #4f555e 20%,
+		#4a5058 22%, #494f57 27%, #4f555e 29%, #4a5058 31%, #494f57 36%,
+		#4f555e 38%, #4a5058 40%, #494f57 45%, #4f555e 47%, #4a5058 49%,
+		#494f57 55%, #4f555e 56%, #4a5058 58%, #494f57 64%, #4f555e 65%,
+		#4a5058 67%, #494f57 73%, #4f555e 75%, #4a5058 76%, #494f57 82%,
+		#4f555e 84%, #4a5058 85%, #494f57 91%, #4f555e 93%, #4a5058 95%,
+		#494f57 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #494f57 0%, #4f555e 2%, #4a5058 4%, #494f57 9%,
+		#4f555e 11%, #4a5058 13%, #494f57 18%, #4f555e 20%, #4a5058 22%,
+		#494f57 27%, #4f555e 29%, #4a5058 31%, #494f57 36%, #4f555e 38%,
+		#4a5058 40%, #494f57 45%, #4f555e 47%, #4a5058 49%, #494f57 55%,
+		#4f555e 56%, #4a5058 58%, #494f57 64%, #4f555e 65%, #4a5058 67%,
+		#494f57 73%, #4f555e 75%, #4a5058 76%, #494f57 82%, #4f555e 84%,
+		#4a5058 85%, #494f57 91%, #4f555e 93%, #4a5058 95%, #494f57 100%);
+	background-size: 50px 40px;
+	padding: 10px 0px 40px 0px;
+}
+
+nav.menuPrimario ul {
+	padding: 0px;
+	text-align: center;
+	margin: 0px;
+}
+
+nav.menuPrimario ul .menu {
+	display: inline-block;
+	border: 4px solid #3C3E40;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #5B6069;
+	color: #bbb;
+}
+
+nav.menuPrimario ul .menu .dropdown-toggle {
+	color: #bbb;
+	text-decoration: none;
+}
+
+nav.menuPrimario ul .menu .dropdown-toggle:hover {
+	color: #61AA1F;
+}
+
+nav.menuPrimario ul .menu.open .dropdown-toggle {
+	color: #61AA1F;
+}
+
+nav.menuPrimario ul .menu .dropdown-menu {
+	background: #3C3E40;
+	border-top: 4px solid #61AA1F;
+	padding: 0px;
+}
+
+nav.menuPrimario ul .menu .dropdown-menu li {
+	border-bottom: 1px solid #aaa;
+}
+
+nav.menuPrimario ul .menu .dropdown-menu li a:hover {
+	background: #4B4F57;
+}
+
+nav.menuPrimario ul .menu .dropdown-menu li a {
+	color: #bbb;
+	padding: 10px 0px;
+}
+
+nav.menuSecundario {
+	width: 130px;
+}
+
+nav.menuSecundario .listaMenuSecundario {
+	list-style: none;
+	width: 130px;
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav.menuSecundario .listaMenuSecundario li {
+	background: #D6D6D6;
+	border-radius: 10px 0px 0px 10px;
+	width: 130px;
+	height: 130px;
+	color: #6B6B6B;
+	margin-bottom: 10px;
+	text-align: center;
+	border-left: 10px solid #D6D6D6;
+	-webkit-transition: all linear 1s;
+	transition: all linear 0.3s;
+	cursor: pointer;
+}
+
+nav.menuSecundario .listaMenuSecundario li:hover {
+	color: #61AA1F;
+	border-left: 10px solid #5CB85C;
+}
+
+nav.menuSecundario .listaMenuSecundario li.seleccionado {
+	color: #222;
+	background: #eee;
+	border-left: 10px solid #5CB85C;
+}
+
+nav.menuSecundario .listaMenuSecundario li i {
+	font-size: 4em;
+	margin-top: 15px;
+}
+
+nav.menuSecundario .listaMenuSecundario li span {
+	
+}
+
+section.contenido {
+	background: #EFEDED;
+	position: absolute;
+	width: 100%;
+	top: 130px;
+	bottom: 0px;
+}
+
+section.contenido .panelManipular {
+	width: 90%;
+	top: -25px;
+	bottom: 0px;
+	position: absolute;
+	margin: 0 auto;
+	left: 5%;
+	right: 5%;
+}
+
+section.contenido .manipular {
+	border: 1px solid #ccc;
+	position: absolute;
+	right: 0px;
+	left: 130px;
+	top: 0px;
+	bottom: 0px;
+	overflow: auto;
+	background: #fff;
+}
+
+.btn-documental {
+	background: #72c02c;
+	color: #fff;
+}
+
+.btn-documental:hover {
+	background: #5fb611;
+	color: #fff;
+}
+
+.btn-login {
+	float: right;
+}
+
+.contenedorLogin {
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.contenedorLogin .panelDocumental {
+	color: #555;
+	background: #fefefe;
+	border: solid 1px #eee;
+	box-shadow: 0 0 3px #eee;
+}
+
+.contenedorLogin .panelDocumental .panel-heading {
+	background: -moz-linear-gradient(45deg, #242b35 0%, #242b35 3%, #2c333d 4%, #242b35
+		6%, #242b35 10%, #2d343e 12%, #242b35 13%, #242b35 18%, #2c333d 19%,
+		#242b35 21%, #242b35 25%, #2d343e 26%, #242b35 28%, #232a34 29%,
+		#242b35 32%, #2c333d 34%, #252c36 35%, #242b35 40%, #2d343e 41%,
+		#252c36 43%, #242b35 44%, #242b35 47%, #2d343e 49%, #242b35 50%,
+		#242b35 54%, #2b323c 56%, #242b35 57%, #242b35 62%, #2c333d 63%,
+		#242b35 65%, #242b35 69%, #2c333d 71%, #242b35 72%, #242b35 76%,
+		#2d343e 78%, #232a34 79%, #242b35 84%, #2c333d 85%, #242b35 87%,
+		#242b35 91%, #2b323c 93%, #242b35 94%, #242b35 99%, #2b323c 100%);
+	background: -webkit-linear-gradient(45deg, #242b35 0%, #242b35 3%, #2c333d 4%,
+		#242b35 6%, #242b35 10%, #2d343e 12%, #242b35 13%, #242b35 18%,
+		#2c333d 19%, #242b35 21%, #242b35 25%, #2d343e 26%, #242b35 28%,
+		#232a34 29%, #242b35 32%, #2c333d 34%, #252c36 35%, #242b35 40%,
+		#2d343e 41%, #252c36 43%, #242b35 44%, #242b35 47%, #2d343e 49%,
+		#242b35 50%, #242b35 54%, #2b323c 56%, #242b35 57%, #242b35 62%,
+		#2c333d 63%, #242b35 65%, #242b35 69%, #2c333d 71%, #242b35 72%,
+		#242b35 76%, #2d343e 78%, #232a34 79%, #242b35 84%, #2c333d 85%,
+		#242b35 87%, #242b35 91%, #2b323c 93%, #242b35 94%, #242b35 99%,
+		#2b323c 100%);
+	background: linear-gradient(45deg, #242b35 0%, #242b35 3%, #2c333d 4%, #242b35 6%,
+		#242b35 10%, #2d343e 12%, #242b35 13%, #242b35 18%, #2c333d 19%,
+		#242b35 21%, #242b35 25%, #2d343e 26%, #242b35 28%, #232a34 29%,
+		#242b35 32%, #2c333d 34%, #252c36 35%, #242b35 40%, #2d343e 41%,
+		#252c36 43%, #242b35 44%, #242b35 47%, #2d343e 49%, #242b35 50%,
+		#242b35 54%, #2b323c 56%, #242b35 57%, #242b35 62%, #2c333d 63%,
+		#242b35 65%, #242b35 69%, #2c333d 71%, #242b35 72%, #242b35 76%,
+		#2d343e 78%, #232a34 79%, #242b35 84%, #2c333d 85%, #242b35 87%,
+		#242b35 91%, #2b323c 93%, #242b35 94%, #242b35 99%, #2b323c 100%);
+	background-size: 50px 40px;
+	color: #bbb;
+	text-align: center;
+}
+
+.form-group-overflow {
+	overflow: auto;
+}
+
+
+<!-- CSS General -->
+.margin-top-20{
+	margin-top:20px;
+}
+.margin-bottom-20{
+	margin-bottom:20px;
+}

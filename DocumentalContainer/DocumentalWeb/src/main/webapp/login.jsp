@@ -1,0 +1,77 @@
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" />
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link href="resources/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+		<div class="col-xs-6">
+			<div class="logo"></div>
+		</div>
+		<div class="col-xs-6">
+			<div class="opcionesCabecera">
+				<ul>
+					<li><i class="glyphicon glyphicon-user"></i><span>${pageContext.request.userPrincipal.name} (Super Adminitrador) </span></li>
+					<li><a href=""><i class="glyphicon glyphicon-bell"></i><span>Notificaciones</span></a>
+					</li>
+					<li><a href=""><i class="glyphicon glyphicon-off"></i><span>Salir</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<nav class="menuPrimario">
+		<ul>
+			<li class="menu">Gestión de entidades</li><li class="menu">
+			Gestión de entidades</li><li class="dropdown menu">
+			<a href="#" class="dropdown-toggle "
+				data-toggle="dropdown" role="button" aria-haspopup="true"
+				aria-expanded="false">Dropdown <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Another action</a></li>
+					<li><a href="#">Something else here</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+	<section class="contenido">
+		<div class="panelManipular">
+			<nav class="menuSecundario">
+				<ul class="listaMenuSecundario">
+					<li><i class="glyphicon glyphicon-home"></i><span>Entidades</span></li>
+					<li><i class="glyphicon glyphicon-home"></i><span>Documentos</span></li>
+					<li class="seleccionado"><i class="glyphicon glyphicon-home"></i><span>Documentos</span></li>
+				</ul>
+			</nav>
+			<div class="manipular">
+				<div class="contenedorLogin">
+					<div class="panel panelDocumental">
+						<div class="panel-heading">Iniciar Sesión</div>
+						<div class="panel-body">
+							<form name='loginForm' action="<c:url value='/j_spring_security_check' />" method='POST'>
+								<div class="input-group margin-bottom-20">
+			                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+			                        <input type="text" placeholder="Username" class="form-control">
+			                    </div>
+			                    <div class="input-group margin-bottom-20">
+			                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+			                        <input type="text" placeholder="Username" class="form-control">
+			                    </div>
+								<div class="form-group margin-top-20">
+									<button type="submit" class="btn btn-documental btn-login">Loguear</button>
+								</div>
+								<input type="hidden" name="${_csrf.parameterName}"
+									value="${_csrf.token}" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
